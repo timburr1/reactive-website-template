@@ -1,15 +1,15 @@
-import React from 'react'
-import { createRoot } from "react-dom/client";
-import TopBar from './components/TopBar'
+import TopBar from "./components/TopBar";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div>
+    <>
       <TopBar />
-    </div>
-  )
+      <NavBar />
+      <Hero />
+    </>
+  );
 }
 
-const container = document.getElementById("root");
-const root = createRoot(container);
-root.render(React.createElement(App));
+export default App;
