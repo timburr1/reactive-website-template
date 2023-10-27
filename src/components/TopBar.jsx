@@ -22,7 +22,7 @@ const TopBar = () => {
         </div>
         <div className="hidden md:flex items-center px-6">
           <AiFillPhone size={20} className="mr-2 text-[var(--primary-dark)]" />
-          <p className="text-sm text-gray-700">1-888-817-1234</p>
+          <p className="text-sm text-gray-700">1-888-867-5309</p>
         </div>
         <button>Get a Free Quote</button>
       </div>
