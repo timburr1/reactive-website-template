@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Booking = () => {
   return (
@@ -7,10 +6,10 @@ const Booking = () => {
         <div className='flex flex-col my-2 py-2'>
           <label>Destination</label>
           <select className='lg:w-[300px] md:w-full border rounded-md p-2 relative'>
-            <option>Grande Antigua</option>
-            <option>Key West</option>
-            <option>Maldives</option>
-            <option>Cozumel</option>
+            <option>Arrakis</option>
+            <option>Degobah</option>
+            <option>Alpha Centauri</option>
+            <option>Halo 17</option>
           </select>
         </div>
         <div className='flex w-full'>
